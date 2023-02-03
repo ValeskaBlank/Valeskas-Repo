@@ -2,7 +2,7 @@
 Analyse von 8833 Schätzwerten von Ein- und Mehrfamilienhäusern in Liechtenstein aus den Jahren 1995-2020
 
 ![Einfamilienhaus](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Einfamilienhaus-Mauren.jpg)
-Bild: Archiv «Liechtensteiner Vaterland»
+Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv «Liechtensteiner Vaterland»
 
 ## Checkliste
 
