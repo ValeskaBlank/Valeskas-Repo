@@ -1,5 +1,5 @@
-# Baukosten in Liechtenstein
-Das ist ein Test
+# Baukosten im Vergleich zur Lohnentwicklung
+Analyse von 8833 Schätzwerten von Ein- und Mehrfamilienhäusern in Liechtenstein aus den Jahren 1995-2020
 
 ## Das ist der Titel
 
