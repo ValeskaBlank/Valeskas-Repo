@@ -18,7 +18,7 @@ Bild: Archiv «Liechtensteiner Vaterland»
 
 ## Datenquelle
 
-### 1.
+## 1. Schätzwerte der Gebäude
 
 Grundlage der Auswertung sind Excel-Tabellen, die das Liechtensteiner Immobilienbewertungsunternehmen Bewera auf Anfrage zur Verfügung stellte. Die notwendige Genehmigung des Schweizerischen Versicherungsverbands (SVV) wurde eingeholt. Die Tabellen umfassen Daten von allen Liechtensteiner Gemeinden (die kleinste Gemeinde, Planken, wurde aufgrund der zu geringen Anzahl Daten nicht berücksichtigt) und reichen bis in die 1990er-Jahre zurück. Enthalten sind 
 * Datum der Schätzung
@@ -27,7 +27,11 @@ Grundlage der Auswertung sind Excel-Tabellen, die das Liechtensteiner Immobilien
 * Baukostenindex (BKI) zum Zeitpunkt der Erstellung
 * Kubatur des Gebäudes in Kubikmeter (m3)
 
-Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. 
+Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. Zusätzlich lieferte er eine Zeitreihe des Baukostenindex, der für die Indexierung (Hochrechnung) der Neuwerte auf das Jahr der Schätzung benötigt wurde. 
+
+## 2. Medianlöhne
+
+Die Medianlöhne weren in Liechtenstein erst seit dem Jahr 2006 veröffentlicht. Das Amt für Statistik empfahl, für die früheren Jahre eine Annahme aufgrund der Entwicklung in der benachbarten Schweiz zu treffen. Das Amt hält diese Schätzung für vertretbar. Die entsprechende Excel-Tabelle für die benötigten Jahre habe ich selbst erstellt. 
 
 ## Analyse mit Pandas
 
