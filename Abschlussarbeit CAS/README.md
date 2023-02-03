@@ -7,7 +7,7 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 ## Checkliste
 
 * These formulieren: **Bauen war früher einfacher leistbar als heute. Die Schere zwischen Lohn und Baukosten hat sich geöffnet.**
-* These checken: Relevanz? Neu? Aufwand/Ertrag? **Sehr relevantes Thema für Liechtensteiner:innen. Die Klagen, sich kein Haus mehr leisten zu können, häufen sich. Eine solche Auswertung gab es fürs Land noch nie. Geschätzter Aufwand: hoch aufgrund der dünnen Datenlage; Ertrag: hoch, da Geschichte neu**
+* These checken: Relevanz? Neu? Aufwand/Ertrag? **Sehr relevantes Thema für Liechtensteiner:innen. Die Klagen, sich kein Haus mehr leisten zu können, häufen sich. Eine solche Auswertung gab es fürs Land noch nie. Geschätzter Aufwand: hoch aufgrund der dünnen Datenlage; Ertrag: hoch, da Geschichte neu und grosses «talking piece»**
 * Knackpunkt bestimmen: **Geeignete Daten lassen sich nicht beschaffen**
 * Briefing Person konsultieren: **Rücksprache fand regelmässig statt**
 * Daten beschaffen/reinigen/analysieren/visualisieren -> These justieren: **War nicht nötig, These hat sich bestätigt**
