@@ -11,7 +11,7 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 * Knackpunkt bestimmen: **Geeignete Daten lassen sich nicht beschaffen**
 * Briefing Person konsultieren: **Rücksprache fand regelmässig statt**
 * Daten beschaffen/reinigen/analysieren/visualisieren -> These justieren: **War nicht nötig, These hat sich bestätigt**
-* Ergänzen durch klassische Recherche (Experten, Politiker etc.)
+* Ergänzen durch klassische Recherche (Experten, Politiker etc.): **Anfrage bei der wichtigsten Hypothekenbank im Land**
 * Dokumentieren Code und statistische Annahmen
 * Link auf Publikation
 * Aufwandslogbuch
