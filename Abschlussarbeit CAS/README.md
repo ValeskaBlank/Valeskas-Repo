@@ -35,10 +35,21 @@ Die Medianlöhne weren in Liechtenstein erst seit dem Jahr 2006 veröffentlicht.
 
 ## Zeitliche Entwicklung: Analyse mit Pandas
 
-fefe
+Für das Einlesen, Reinigen und Auswerten der Daten wurde die Python-Bibliothek Pandas verwendet. Berücksichtigt wurden die Jahre ab 1995 bis 2020, weil damit ein «runder» Zeitraum von 25 Jahren abgedeckt werden kann. Ausserdem war die Anzahl Daten aus den verschiedenen Gemeinden in früheren Jahren gering. Die Jahre 2021 und 2022 wurden nicht berücksichtigt; für diesen Zeitraum gibt es noch keinen aktuellen Medianlohn.
+
+Pandas ermöglichte das effiziente Einlesen der Excel-Tabellen mit den Gemeindedaten in einem «Rutsch», eine zeitliche Sortierung der Daten, die Berechnung der indexierten Neuwerte und letztlich die Kombination der Auswertung mit den Medianlöhnen. 
+
+Zur Kontrolle wurden die Berechnungen nochmals in Excel wiederholt. 
 
 ## Artikel
 
 afe
 
 ## Aufwandslogbuch
+
+* **Geeignete Daten finden:** Anfragen bei Amt für Statistik und Grundbuchamt (beide mit keinem befriedigendem Ergebnis), Anfrage bei Immobilienbewertungsbüro Bewera plus anschliessendem Pitch des Vorhabens beim Firmenchef: Netto ein halber Arbeitstag (4 Std.)
+* **Datenreinigung, Berechnungen und Auswertungen in Pandas:** Drei Arbeitstage (ziemlich lange, da immer wieder mit Code verzettelt)
+* **Visualisierung:** 4 Std. (das ging dank Googeln erstaunlich schnell)
+* **Medienanfrage bei Banken/Interview mit Datenlieferant:** 2 Std.
+* **Artikel schreiben:** 4 Std. 
+* **Total Aufwand:** Knapp 5 Arbeitstage
