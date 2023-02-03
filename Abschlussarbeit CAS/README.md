@@ -33,6 +33,12 @@ Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Gr
 
 Die Medianlöhne weren in Liechtenstein erst seit dem Jahr 2006 veröffentlicht. Das Amt für Statistik empfahl, für die früheren Jahre eine Annahme aufgrund der Entwicklung in der benachbarten Schweiz zu treffen. Das Amt hält diese Schätzung für vertretbar. Die entsprechende Excel-Tabelle für die benötigten Jahre habe ich selbst erstellt. 
 
-## Analyse mit Pandas
+## Zeitliche Entwicklung: Analyse mit Pandas
 
+fefe
 
+## Artikel
+
+afe
+
+## Aufwandslogbuch
