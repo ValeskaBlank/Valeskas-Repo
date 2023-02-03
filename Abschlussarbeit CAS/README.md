@@ -16,6 +16,19 @@ Bild: Archiv «Liechtensteiner Vaterland»
 * Link auf Publikation
 * Aufwandslogbuch
 
+## Datenquelle
+
+### 1.
+
+Grundlage der Auswertung sind Excel-Tabellen, die das Liechtensteiner Immobilienbewertungsunternehmen Bewera auf Anfrage zur Verfügung stellte. Die notwendige Genehmigung des Schweizerischen Versicherungsverbands (SVV) wurde eingeholt. Die Tabellen umfassen Daten von allen Liechtensteiner Gemeinden (die kleinste Gemeinde, Planken, wurde aufgrund der zu geringen Anzahl Daten nicht berücksichtigt) und reichen bis in die 1990er-Jahre zurück. Enthalten sind 
+* Datum der Schätzung
+* Art des Gebäudes
+* Neuwert des Gebäudes bei Erstellung
+* Baukostenindex (BKI) zum Zeitpunkt der Erstellung
+* Kubatur des Gebäudes in Kubikmeter (m3)
+
+Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. 
+
 ## Analyse mit Pandas
 
 
