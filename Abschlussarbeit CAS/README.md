@@ -24,7 +24,7 @@ Grundlage der Auswertung sind Excel-Tabellen, die das Liechtensteiner Immobilien
 * Datum der Schätzung
 * Art des Gebäudes
 * Neuwert des Gebäudes bei Erstellung
-* Baukostenindex (BKI) zum Zeitpunkt der Erstellung
+* Zürcher Index der Wohnbaukosten (BKI) zum Zeitpunkt der Erstellung
 * Kubatur des Gebäudes in Kubikmeter (m3)
 
 Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. Zusätzlich lieferte er eine Zeitreihe des Baukostenindex, der für die Indexierung (Hochrechnung) der Neuwerte auf das Jahr der Schätzung benötigt wurde. 
