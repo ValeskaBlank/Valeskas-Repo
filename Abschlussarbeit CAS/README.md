@@ -6,7 +6,7 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 
 ## Checkliste
 
-* These formulieren: **Bauen war früher einfacher leistbar als heute. Die Schere zwischen Lohn und Baukosten hat sich geöffnet.**
+* These formulieren: **Früher war es einfacher, sich den Bau eines Hauses zu leisten. Die Schere zwischen Lohn und Baukosten hat sich geöffnet.**
 * These checken: Relevanz? Neu? Aufwand/Ertrag? **Sehr relevantes Thema für Liechtensteiner:innen. Die Klagen, sich kein Haus mehr leisten zu können, häufen sich. Eine solche Auswertung gab es fürs Land noch nie. Geschätzter Aufwand: hoch aufgrund der dünnen Datenlage; Ertrag: hoch, da Geschichte neu und grosses «talking piece»**
 * Knackpunkt bestimmen: **Geeignete Daten lassen sich nicht beschaffen**
 * Briefing Person konsultieren: **Rücksprache fand regelmässig statt**
@@ -20,18 +20,18 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 
 ## a) Schätzwerte der Gebäude
 
-Grundlage der Auswertung sind Excel-Tabellen, die das Liechtensteiner Immobilienbewertungsunternehmen Bewera auf Anfrage zur Verfügung stellte. Die notwendige Genehmigung des Schweizerischen Versicherungsverbands (SVV) wurde eingeholt. Die Tabellen umfassen Daten von allen Liechtensteiner Gemeinden (die kleinste Gemeinde, Planken, wurde aufgrund der zu geringen Anzahl Daten nicht berücksichtigt) und reichen bis in die 1990er-Jahre zurück. Enthalten sind 
+Für die Analyse wurden 8826 Ein- und Mehrfamilienhäuser in Liechtenstein berücksichtigt. Grundlage der Auswertung sind anonymisierte Excel-Tabellen, die das Liechtensteiner Immobilienbewertungsunternehmen Bewera auf Anfrage zur Verfügung stellte. Die notwendige Genehmigung des Schweizerischen Versicherungsverbands (SVV) wurde eingeholt. Die Tabellen umfassen Daten von allen Liechtensteiner Gemeinden (die kleinste Gemeinde, Planken, wurde aufgrund der zu geringen Anzahl Daten nicht berücksichtigt) und reichen teils bis in die 1980er-Jahre zurück. Enthalten sind 
 * Datum der Schätzung
 * Art des Gebäudes
 * Neuwert des Gebäudes bei Erstellung
 * Zürcher Index der Wohnbaukosten (BKI) zum Zeitpunkt der Erstellung
 * Kubatur des Gebäudes in Kubikmeter (m3)
 
-Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. Zusätzlich lieferte er eine Zeitreihe des Baukostenindex, der für die Indexierung (Hochrechnung) der Neuwerte auf das Jahr der Schätzung benötigt wurde. 
+Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Grundlage der firmeninternen Datenbank. Zusätzlich lieferte er eine Zeitreihe des Zürcher Baukostenindex, der für die Indexierung (Hochrechnung) der Neuwerte auf das Jahr der Schätzung benötigt wurde. 
 
 ## b) Medianlöhne
 
-Die Medianlöhne weren in Liechtenstein erst seit dem Jahr 2006 veröffentlicht. Das Amt für Statistik empfahl, für die früheren Jahre eine Annahme aufgrund der Entwicklung in der benachbarten Schweiz zu treffen. Das Amt hält diese Schätzung für vertretbar. Die entsprechende Excel-Tabelle für die benötigten Jahre habe ich selbst erstellt. 
+Die Medianlöhne werden in Liechtenstein erst seit dem Jahr 2006 veröffentlicht. Das Amt für Statistik empfahl, für die früheren Jahre eine Annahme aufgrund der Entwicklung in der benachbarten Schweiz zu treffen. Das Amt hält diese Schätzung für vertretbar. Die entsprechende Excel-Tabelle für die benötigten Jahre habe ich selbst erstellt. 
 
 ## Zeitliche Entwicklung: Analyse mit Pandas
 
