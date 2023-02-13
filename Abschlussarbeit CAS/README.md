@@ -96,7 +96,7 @@ Print-Version:
 * 2/ df's Medianlohn und mittlere Erstellungskosten kombinieren
 * 3/ Prozentuale Veränderung 1996 vs. 2020 berechnen
 
-*Zeitaufwand: ca. 2 Stunden
+*Zeitaufwand: ca. 2 Stunden*
 
 **) Plotten**
 
