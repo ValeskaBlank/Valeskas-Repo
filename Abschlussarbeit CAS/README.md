@@ -41,7 +41,7 @@ Pandas ermöglichte das effiziente Einlesen der Excel-Tabellen mit den Gemeinded
 
 Zur Kontrolle wurden die Berechnungen nochmals in Excel wiederholt. 
 
-## Artikel
+## Artikel 
 
 afe
 
