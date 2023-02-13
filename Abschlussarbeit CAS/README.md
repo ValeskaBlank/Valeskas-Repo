@@ -1,5 +1,5 @@
 # Baukosten im Vergleich zur Lohnentwicklung
-Analyse von 8833 geschätzten Neuwerten von Ein- und Mehrfamilienhäusern in Liechtenstein aus den Jahren 1995-2020
+Analyse von 8826 geschätzten Neuwerten von Ein- und Mehrfamilienhäusern in Liechtenstein aus den Jahren 1995-2020
 
 ![Einfamilienhaus](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Einfamilienhaus-Mauren.jpg)
 Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv «Liechtensteiner Vaterland»
@@ -11,7 +11,7 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 * Knackpunkt bestimmen: **Geeignete Daten lassen sich nicht beschaffen**
 * Briefing Person konsultieren: **Rücksprache fand regelmässig statt**
 * Daten beschaffen/reinigen/analysieren/visualisieren -> These justieren: **War nicht nötig, These hat sich bestätigt**
-* Ergänzen durch klassische Recherche (Experten, Politiker etc.): **Anfrage bei der wichtigsten Hypothekenbank im Land**
+* Ergänzen durch klassische Recherche (Experten, Politiker etc.): **Fallbeispiel eines Rentners, der in den 1980er-Jahren gebaut hat**
 * Dokumentieren Code und statistische Annahmen
 * Link auf Publikation
 * Aufwandslogbuch
