@@ -46,6 +46,10 @@ Zur Kontrolle wurden die Berechnungen nochmals in Excel wiederholt.
 [Publikation auf vaterland.li](https://www.vaterland.li/liechtenstein/wirtschaft/baukosten-im-land-steigen-staerker-als-die-loehne-art-522103)
 Login: vblank@medienhaus.li, Passwort: suga9495
 
+Print-Version:
+[Aufmacher](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Aufmacher.pdf)
+[Bericht](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Bericht.pdf)
+
 ## Aufwandslogbuch
 
 * **Geeignete Daten finden:** Anfragen bei Amt für Statistik und Grundbuchamt (beide mit keinem befriedigendem Ergebnis), Anfrage bei Immobilienbewertungsbüro Bewera plus anschliessendem Pitch des Vorhabens beim Firmenchef: Netto ein halber Arbeitstag (4 Std.)
