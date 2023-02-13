@@ -43,7 +43,7 @@ Zur Kontrolle wurden die Berechnungen nochmals in Excel wiederholt.
 
 ## Artikel 
 
-afe
+[Publikation auf vaterland.li](https://www.vaterland.li/liechtenstein/wirtschaft/baukosten-im-land-steigen-staerker-als-die-loehne-art-522103)
 
 ## Aufwandslogbuch
 
