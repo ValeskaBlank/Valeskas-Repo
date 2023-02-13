@@ -88,7 +88,7 @@ Print-Version:
 
 * 1/ Median der Erstellungskosten/m3 pro Jahr und über alle Gemeinden zusammenrechnen 
 
-*Zeitaufwand: ca. 4 Stunden rumpröbeln, wieder Probleme mit merge. Simon hat dann geholfen, Methode .agg kannte ich noch nicht.*
+*Zeitaufwand: ca. 4 Stunden rumpröbeln, wieder Probleme mit merge. Simon hat geholfen, Methode .agg kannte ich noch nicht.*
 
 **d) Vergleich Kosten-/Lohnentwicklung**
 
