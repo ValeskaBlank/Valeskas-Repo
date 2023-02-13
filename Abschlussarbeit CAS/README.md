@@ -47,7 +47,7 @@ Zur Kontrolle wurden die Berechnungen nochmals in Excel wiederholt.
 Login: vblank@medienhaus.li, Passwort: suga9495
 
 Print-Version:
-[Aufmacher](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Aufmacher.pdf)
+[Aufmacher](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Aufmacher.pdf) und 
 [Bericht](https://github.com/ValeskaBlank/Valeskas-Repo/blob/main/Abschlussarbeit%20CAS/Bericht.pdf)
 
 ## Aufwandslogbuch
