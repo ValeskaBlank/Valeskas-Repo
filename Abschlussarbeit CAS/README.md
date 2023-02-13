@@ -98,7 +98,7 @@ Print-Version:
 
 *Zeitaufwand: ca. 2 Stunden*
 
-**) Plotten**
+**e) Plotten**
 
 * 1/ Testen verschiedener Plots: Nur Erstellungskosten, nur Medianlohn, beides zusammen, Trendlinie
 
