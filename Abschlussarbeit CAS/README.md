@@ -63,6 +63,40 @@ Print-Version:
 * **Artikel schreiben:** 6 Std. 
 * **Total Aufwand:** 5 Arbeitstage
 
-## Arbeitsprotokoll
+## Arbeitsprotokoll – Reihenfolge
 
+**a) Files mit Schätzungswerten
+
+* 1/ Einlesen eines ersten Files als Test und Schätzungsdaten gleich in Datetime umwandeln, um zeitlich sortieren zu können
+* 2/ Schätzungsdaten als Index setzen, für besseren Überblick überflüssige Spalten löschen, Index zeitlich sortieren
+* 3/ Index auf Jahre setzen, da die exakten Schätzungsdaten irrelevant sind
+* 4/ auf benötigte Jahre (1995-2020) zugreifen
+* 5/ Gewünschtes Ergebnis mit Test-Gemeinde erreicht, über alle Files/Gemeinden iterieren
+* 6/ alle Gemeinden zu einem grossen Dataframe zusammenfügen
+
+*Zeitaufwand: ca. 1,5 Arbeitstage. Gehadert habe ich mit dem PeriodIndex - das hats irgendwie ständig verhauen - und dem Loop, weil ich für das gewünschte Ergebnis ein Tuple einsetzen musste, was wir nicht gross angeschaut haben im Kurs
+
+**b) File Baukostenindex
+
+* 1/ Excel-Datei dem grossen Gemeinde-df angleichen, dass ich nacher mergen kann: Nach benötigten Jahren filtern, Daten in Datetime umwandeln und auf PeriodIndex setzen etc.
+* 2/ Mergen mit Gemeinde-df
+* 3/ Neuwerte gemäss Baukostenindex hochrechnen, um danach die indexierten Erstellungskosten/m3 zu berechnen
+
+*Zeitaufwand: 
+
+**c) Auswertung
+
+* 1/ Median der Erstellungskosten/m3 pro Jahr und über alle Gemeinden zusammenrechnen (Methode .agg kannte ich noch nicht, da hat Simon geholfen)
+
+**d) Vergleich Kosten-/Lohnentwicklung
+
+* 1/ File Medianlöhne dem Gemeinde-df angleichen, weil nachher wieder ein merge kommt
+* 2/ df's Medianlohn und mittlere Erstellungskosten kombinieren
+* 3/ Prozentuale Veränderung 1996 vs. 2020 berechnen
+
+**) Plotten
+
+* 1/ Testen verschiedener Plots: Nur Erstellungskosten, nur Medianlohn, beides zusammen, Trendlinie
+
+*Zeitaufwand: 4 Std. (erstaunlich wenig angesichts des komplizierten Codes für die Trendlinie, hab aber ein gutes Beispiel im Netz gefunden)
 
