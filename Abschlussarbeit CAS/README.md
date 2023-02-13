@@ -63,7 +63,7 @@ Print-Version:
 * **Artikel schreiben:** 6 Std. 
 * **Total Aufwand:** 5 Arbeitstage
 
-## Arbeitsprotokoll – Reihenfolge
+## Arbeitsprotokoll
 
 **a) Files mit Schätzwerten**
 
