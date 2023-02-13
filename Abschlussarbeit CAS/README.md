@@ -57,11 +57,11 @@ Print-Version:
 ## Aufwandslogbuch
 
 * **Geeignete Daten finden:** Anfragen bei Amt für Statistik und Grundbuchamt (beide mit keinem befriedigendem Ergebnis), Anfrage bei Immobilienbewertungsbüro Bewera plus anschliessendem Pitch des Vorhabens beim Firmenchef: Netto ein halber Arbeitstag (4 Std.)
-* **Datenreinigung, Berechnungen und Auswertungen in Pandas:** Drei Arbeitstage 
+* **Datenreinigung, Berechnungen und Auswertungen in Pandas:** 2,5 Arbeitstage 
 * **Visualisierung:** 4 Std.
 * **Gespräch mit Datenlieferant und Rentner für Fallbeispiel:** 2 Std.
 * **Artikel schreiben:** 6 Std. 
-* **Total Aufwand:** 5 Arbeitstage
+* **Total Aufwand:** ca. 5 Arbeitstage
 
 ## Arbeitsprotokoll
 
