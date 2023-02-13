@@ -65,7 +65,7 @@ Print-Version:
 
 ## Arbeitsprotokoll – Reihenfolge
 
-**a) Files mit Schätzungswerten
+**a) Files mit Schätzwerten**
 
 * 1/ Einlesen eines ersten Files als Test und Schätzungsdaten gleich in Datetime umwandeln, um zeitlich sortieren zu können
 * 2/ Schätzungsdaten als Index setzen, für besseren Überblick überflüssige Spalten löschen, Index zeitlich sortieren
@@ -74,29 +74,33 @@ Print-Version:
 * 5/ Gewünschtes Ergebnis mit Test-Gemeinde erreicht, über alle Files/Gemeinden iterieren
 * 6/ alle Gemeinden zu einem grossen Dataframe zusammenfügen
 
-*Zeitaufwand: ca. 1,5 Arbeitstage. Gehadert habe ich mit dem PeriodIndex - das hats irgendwie ständig verhauen - und dem Loop, weil ich für das gewünschte Ergebnis ein Tuple einsetzen musste, was wir nicht gross angeschaut haben im Kurs
+*Zeitaufwand: ca. 1 Arbeitstag. Gehadert habe ich mit dem PeriodIndex - das hats irgendwie ständig verhauen - und dem Loop, weil ich für das gewünschte Ergebnis ein Tuple einsetzen musste, was wir nicht gross angeschaut haben im Kurs.*
 
-**b) File Baukostenindex
+**b) File Baukostenindex, merge mit Gemeinden**
 
 * 1/ Excel-Datei dem grossen Gemeinde-df angleichen, dass ich nacher mergen kann: Nach benötigten Jahren filtern, Daten in Datetime umwandeln und auf PeriodIndex setzen etc.
 * 2/ Mergen mit Gemeinde-df
 * 3/ Neuwerte gemäss Baukostenindex hochrechnen, um danach die indexierten Erstellungskosten/m3 zu berechnen
 
-*Zeitaufwand: 
+*Zeitaufwand: ca. 4 Stunden. Mergen finde ich einfach immer noch schwierig, letztlich hat mich combine_first gerettet.*
 
-**c) Auswertung
+**c) Auswertung**
 
-* 1/ Median der Erstellungskosten/m3 pro Jahr und über alle Gemeinden zusammenrechnen (Methode .agg kannte ich noch nicht, da hat Simon geholfen)
+* 1/ Median der Erstellungskosten/m3 pro Jahr und über alle Gemeinden zusammenrechnen 
 
-**d) Vergleich Kosten-/Lohnentwicklung
+*Zeitaufwand: ca. 4 Stunden rumpröbeln, wieder Probleme mit merge. Simon hat dann geholfen, Methode .agg kannte ich noch nicht.*
+
+**d) Vergleich Kosten-/Lohnentwicklung**
 
 * 1/ File Medianlöhne dem Gemeinde-df angleichen, weil nachher wieder ein merge kommt
 * 2/ df's Medianlohn und mittlere Erstellungskosten kombinieren
 * 3/ Prozentuale Veränderung 1996 vs. 2020 berechnen
 
-**) Plotten
+*Zeitaufwand: ca. 2 Stunden
+
+**) Plotten**
 
 * 1/ Testen verschiedener Plots: Nur Erstellungskosten, nur Medianlohn, beides zusammen, Trendlinie
 
-*Zeitaufwand: 4 Std. (erstaunlich wenig angesichts des komplizierten Codes für die Trendlinie, hab aber ein gutes Beispiel im Netz gefunden)
+*Zeitaufwand: 4 Std. (erstaunlich wenig angesichts des komplizierten Codes für die Trendlinie, hab aber ein gutes Beispiel im Netz gefunden).*
 
