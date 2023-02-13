@@ -9,7 +9,7 @@ Ein Einfamilienhaus in der liechtensteinischen Gemeinde Mauren.   Bild: Archiv �
 * These formulieren: **Die Schere zwischen Lohn und Baukosten hat sich geöffnet oder: Früher war es einfacher, sich den Bau eines Hauses leisten zu können.**
 * These checken: Relevanz? Neu? Aufwand/Ertrag? **Sehr relevantes Thema für Liechtensteiner:innen. Die Klagen, sich kein Haus mehr leisten zu können, häufen sich. Eine solche Auswertung gab es fürs Land noch nie. Geschätzter Aufwand: hoch aufgrund der dünnen Datenlage; Ertrag: hoch, da Geschichte neu und grosses «talking piece»**
 * Knackpunkt bestimmen: **Geeignete Daten lassen sich nicht beschaffen**
-* Briefing Person konsultieren: **Rücksprache fand regelmässig statt**
+* Briefinperson konsultieren: **Rücksprache fand regelmässig statt**
 * Daten beschaffen/reinigen/analysieren/visualisieren -> These justieren: **War nicht nötig, These hat sich bestätigt**
 * Ergänzen durch klassische Recherche (Experten, Politiker etc.): **Fallbeispiel eines Rentners, der in den 1980er-Jahren gebaut hat**
 * Dokumentieren Code und statistische Annahmen
@@ -32,6 +32,10 @@ Erstellt wurden die Tabellen von Bewera-Geschäftsführer Karl Laternser, auf Gr
 ## b) Medianlöhne
 
 Die Medianlöhne werden in Liechtenstein erst seit dem Jahr 2006 veröffentlicht. Das Amt für Statistik empfahl, für die früheren Jahre eine Annahme aufgrund der Entwicklung in der benachbarten Schweiz zu treffen. Das Amt hält diese Schätzung für vertretbar. Die entsprechende Excel-Tabelle für die benötigten Jahre habe ich selbst erstellt. 
+
+## Gespräch mit Briefingperson
+
+Hauptansprechpartner für die Auswertung war Karl Laternser. Nachdem die offiziellen Stellen (Grundbuch, Amt für Statistik) keine offiziellen Daten herausgeben wollten bzw. konnten, bin ich auf ihn gestossen. Als ich ihm mein Vorhaben erklärte, zögerte er erst, war dann aber bereit, gewisse firmeninterne Daten herauszugeben, die der  Gebäudeversicherung geliefert werden müssen. Letztlich ärgerte sich Laternser selbst, dass auf dem hiesigen Immobilienmarkt so grosse Intransparenz herrscht.
 
 ## Zeitliche Entwicklung: Analyse mit Pandas
 
@@ -58,3 +62,7 @@ Print-Version:
 * **Gespräch mit Datenlieferant und Rentner für Fallbeispiel:** 2 Std.
 * **Artikel schreiben:** 6 Std. 
 * **Total Aufwand:** 5 Arbeitstage
+
+## Arbeitsprotokoll
+
+
