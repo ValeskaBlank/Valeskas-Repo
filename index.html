@@ -37,19 +37,22 @@
         }
         .party-container {
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 10px;
         }
         .party-column {
             flex: 1;
+            min-width: 120px;
+            max-width: 200px;
             text-align: center;
         }
         .party-title {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
             margin-bottom: 10px;
             color: white;
-            padding: 8px;
+            padding: 6px;
         }
         .FBP {
             background-color: black;
@@ -64,35 +67,61 @@
             background-color: lightgray;
         }
         .candidate-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
         }
         .candidate-card {
-            width: 120px;
+            width: 100px;
             background: white;
-            padding: 8px;
+            padding: 6px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
         .candidate-card img {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             object-fit: cover;
         }
         .name {
-            font-size: 12px;
+            font-size: 10px;
             font-weight: bold;
             margin-top: 5px;
         }
         .votes {
-            font-size: 10px;
+            font-size: 9px;
             font-weight: bold;
             color: #007bff;
             margin-top: 5px;
+        }
+        @media (max-width: 768px) {
+            .title {
+                font-size: 18px;
+            }
+            .party-title {
+                font-size: 12px;
+                padding: 4px;
+            }
+            .party-column {
+                min-width: 100px;
+                max-width: 150px;
+            }
+            .candidate-card {
+                width: 90px;
+                padding: 5px;
+            }
+            .candidate-card img {
+                width: 45px;
+                height: 45px;
+            }
+            .name {
+                font-size: 9px;
+            }
+            .votes {
+                font-size: 8px;
+            }
         }
     </style>
 </head>
@@ -139,48 +168,12 @@
                     }
                 });
 
-                const sortCandidates = (candidates) => ({
-                    FBP: candidates.filter(row => row.partei === "FBP").sort((a, b) => b.stimmenanzahl - a.stimmenanzahl),
-                    VU: candidates.filter(row => row.partei === "VU").sort((a, b) => b.stimmenanzahl - a.stimmenanzahl),
-                    DPL: candidates.filter(row => row.partei === "DPL").sort((a, b) => b.stimmenanzahl - a.stimmenanzahl),
-                    FL: candidates.filter(row => row.partei === "FL").sort((a, b) => b.stimmenanzahl - a.stimmenanzahl)
-                });
-
-                const createCards = (candidates) => candidates.map(row => `
-                    <div class="candidate-card">
-                        <img src="${row.portrait}" alt="Foto von ${row.vorname} ${row.nachname}">
-                        <div class="name">${row.vorname} ${row.nachname}</div>
-                        <div class="votes">${row.stimmenanzahl} Stimmen</div>
-                    </div>
-                `).join('');
-
-                const createPartyColumns = (sortedCandidates) => `
-                    <div class="party-container">
-                        ${Object.keys(sortedCandidates).map(party => `
-                            <div class="party-column">
-                                <div class="party-title ${party}">${party}</div>
-                                <div class="candidate-list">${createCards(sortedCandidates[party])}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                `;
-
-                document.getElementById("content").innerHTML = `
-                    <div class="section">
-                        <div class="title">Wahlkreis Oberland</div>
-                        ${createPartyColumns(sortCandidates(kandidaten.Oberland))}
-                    </div>
-                    <div class="section">
-                        <div class="title">Wahlkreis Unterland</div>
-                        ${createPartyColumns(sortCandidates(kandidaten.Unterland))}
-                    </div>
-                `;
+                document.getElementById("content").innerHTML = "Wahlergebnisse geladen.";
             } catch (error) {
                 console.error("Fehler beim Laden der Daten:", error);
                 document.getElementById("content").innerHTML = "<p>Fehler beim Laden der Daten. Bitte später versuchen.</p>";
             }
         }
-
         setInterval(fetchData, 30000);
         window.onload = fetchData;
     </script>
